@@ -1,6 +1,7 @@
 header {
-    background: url("../img/bgblue.jpg");
-    border-bottom: 8px solid slategrey;
+    background: url("../img/bg_bluegrey.jpg");
+    border-bottom: 8px solid dimgrey;
+    border-style: inset;
 }
 
 footer {
@@ -10,22 +11,41 @@ footer {
 
 #page-content-wrapper h1 {
 
-    color: black;
+    color: floralwhite;
     font-family: 'Sanchez', serif;
 
 }
 
 .info {
-    background: rgba(147,206,222,1);
-    background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(73,165,191,1) 75%, rgba(117,189,209,1) 97%, rgba(117,189,209,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(75%, rgba(73,165,191,1)), color-stop(97%, rgba(117,189,209,1)), color-stop(100%, rgba(117,189,209,1)));
-    background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(73,165,191,1) 75%, rgba(117,189,209,1) 97%, rgba(117,189,209,1) 100%);
-    background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(73,165,191,1) 75%, rgba(117,189,209,1) 97%, rgba(117,189,209,1) 100%);
-    background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(73,165,191,1) 75%, rgba(117,189,209,1) 97%, rgba(117,189,209,1) 100%);
-    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(73,165,191,1) 75%, rgba(117,189,209,1) 97%, rgba(117,189,209,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#75bdd1', GradientType=1 );
+    color:white;
+    background: url("../img/bg_dark.jpeg");
     border-radius: 25px;
     border: 2px solid slategrey;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+    font-family: 'Taviraj', serif;
+    font-size: 16px;
+}
+
+a {
+     color: ghostwhite;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+
+.socialfb:hover {
+    color:darkblue;
+}
+
+.socialg:hover {
+    color:darkred;
+}
+
+.socialli:hover {
+    color:dodgerblue;
 }
 
 .row-margin {
@@ -43,6 +63,13 @@ body {
 
 .year {
     color: cornflowerblue;
+    font-family: 'Lobster', cursive;
+    font-size:16px;
+}
+
+.desc {
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
 }
 
 .col-centered{
@@ -272,9 +299,8 @@ input:checked + .slider:before {
     width:260px;
     height:260px;
     margin:10px auto 0px;
-    box-shadow: 0px 0px 10px 6px rgba(119, 119, 119, 0.75);
-    -moz-box-shadow: 0px 0px 10px 6px rgba(119, 119, 119, 0.75);
-    -webkit-box-shadow: 0px 0px 10px 6px rgba(119, 119, 119, 0.75);
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
 
 }
 
