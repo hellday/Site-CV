@@ -74,10 +74,12 @@
             <br><br>
             <h2><label for="onoff_1"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Ma Formation</label>
                 <!-- Rounded switch -->
+
                 <label class="switch" >
                     <input type="checkbox" id="onoff_1" checked>
                     <div class="slider round"></div>
                 </label>
+                
             </h2>
             <hr>
 
@@ -271,7 +273,9 @@
                 </div>
             </div>
 
-
+            <div class="col-lg-2 col-lg-offset-5 col-xs-2 col-xs-offset-5 upPage">
+            <a href="#top"><i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i></a>
+            </div>
         </div>
 
 
@@ -338,6 +342,13 @@
                 $('#mesCentres').hide();
             }
 
+        });
+
+        $(document).ready(function() {
+            $('a[href=#top]').click(function(){
+                $('html, body').animate({scrollTop:0}, 'slow');
+                return false;
+            });
         });
     </script>
 

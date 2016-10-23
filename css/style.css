@@ -27,6 +27,14 @@ footer {
     font-size: 16px;
 }
 
+.upPage > a {
+    color:darkblue;
+}
+
+.upPage:hover > a {
+    color:black;
+}
+
 a {
      color: ghostwhite;
 }
