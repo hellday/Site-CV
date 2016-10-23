@@ -35,6 +35,11 @@ footer {
     color:black;
 }
 
+.copyright {
+    font-family: 'Taviraj', serif;
+    font-style: italic;
+}
+
 a {
      color: ghostwhite;
 }
